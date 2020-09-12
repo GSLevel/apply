@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for CSS Makers</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="everything">
+    <header>
+    <div id="header">
+        <img src="https://cdn.discordapp.com/attachments/754344984089723022/754345839962619916/CSSM_Logo_Transparent.png" id="logo">
+    </div>
+    </header>
+    <div id="info">
+    <h1>Apply For CSS Makers</h1>
+    <h2>You MUST be in the CSS Makers Discord Server (Go to the server for the requirements)</h2>
+    <button id="discord" onclick="document.location = 'https://discord.gg/jJM9BDp'">CSS Makers Discord Server</button>
+    </div>
+  
+
+<div id="form">
+   <div id="ign">
+   <strong><tl id="ignText">IGN:</tl></strong> <input type="text" name="In Game Name" placeholder="Type in your krunker IGN" id="ignInput" maxlength="14" style="text-align: center;">
+   </div>
+   <div id="tag">
+   <tl id="tagText"><strong>Discord Tag:</tl></strong> <input type="text" name="Discord Tag" placeholder="Type in your discord tag" id="tagInput" style="text-align: center;">
+   </div>
+   <div id="shot">
+   <strong><tl id="screen">Video link of you making the best CSS</tl> <tl id="screen2">(upload the video to streamable, discord, twitch clip or youtube):</tl></strong> <input type="text" name="Vid Link" placeholder="Paste the link of your vid link" id="shotInput" style="text-align: center;">
+   </div>
+   <button class="submit" onclick="sendWebhook()" style="display: none;" >Submit</button>
+   <button id="check" onclick="check()">Check</button>
+</div>
+    <h1 id="sentMsg" style="display: none; text-align: center;">Application sent! If it is accepted or declined, you will be pinged in the +1UP Discord Server</h1>
+    <script src="index.js"></script>
+</body>
+</html>

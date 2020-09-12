@@ -1,0 +1,349 @@
+@media screen and (max-width: 1056px) {
+    #menuBtn, #closeMenuBtn {
+        background-color: green;
+        width: 140px;
+        height: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: 400px;
+        bottom: 100px
+    }
+
+    #links {
+        position: relative;
+        left: 540px;
+    }
+
+    #screen {
+        position: relative;
+        left: 650px
+    }
+
+    #screen2 {
+        position: relative;
+        left: 40vh
+    }
+    #shotInput {
+        position: relative;
+        left: 58vh
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #menuBtn, #closeMenuBtn {
+        background-color: green;
+        width: 140px;
+        height: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: 1000px;
+        bottom: 100px
+    }
+
+    #links {
+        position: relative;
+        left: 1140px;
+    }
+
+    #screen2 {
+        position: relative;
+        left: 60vh;
+        top: 40px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #menuBtn, #closeMenuBtn {
+        background-color: green;
+        width: 140px;
+        height: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: 500px;
+        bottom: 100px
+    }
+
+    #links {
+        position: relative;
+        left: 640px;
+        bottom: 100px
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #menuBtn, #closeMenuBtn {
+        background-color: green;
+        width: 140px;
+        height: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: 100px;
+        bottom: 100px
+    }
+
+    #links {
+        position: relative;
+        left: 250px;
+        bottom: 110px;
+    }
+        #shotInput {
+            position: relative;
+            left: 360px;
+            top: 40px
+        }
+    
+        #screen {
+            position: relative;
+            left: 520px;
+            top: 40px;
+        }
+    
+        #screen2 {
+            position: relative;
+            left: 300px;
+            top: 60px;
+        }
+        
+        #logo {
+            position: relative;
+            left: 50px
+        }
+    }
+
+    @media screen and (max-width: 250px) {
+    #menuBtn, #closeMenuBtn {
+        background-color: green;
+        width: 140px;
+        height: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: -50px;
+        bottom: 20px
+    }
+
+    #links {
+        position: relative;
+        left: 50px;
+        bottom: 30px;
+    }
+
+    #ignInput{
+        background-color: darkgreen;
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 4px;
+        font-size: 20px;
+        position: relative;
+        right: 40px
+    }
+
+    #logo {
+        position: relative;
+        left: 70px
+    }
+
+    #tagText {
+        position: relative;
+        top: 30px;
+        left: 30px
+    }
+
+    #shotInput {
+        position: relative;
+        left: 300px;
+        top: 40px
+    }
+
+    #screen {
+        position: relative;
+        left: 380px;
+        top: 40px;
+    }
+
+    #screen2 {
+        position: relative;
+        left: 350px;
+        top: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #menuBtn, #closeMenuBtn {
+        position: relative;
+        left: 300px
+    }
+
+    #ignText {
+        position: relative;
+        bottom: 50px;
+        left: 160px
+    }
+
+    #tagInput {
+        position: relative;
+        left: 5px;
+    }
+
+    #tagText {
+        position: relative;
+        top: 5px;
+        left: 5px
+    }
+
+    #screen {
+        position: relative;
+        left: 650px;
+        top: 20px
+    }
+
+    #screen2 {
+        position: relative;
+        left: 200px
+    }
+
+    #shotInput {
+       left: 360px
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #menuBtn, #closeMenuBtn {
+        position: relative;
+        left: 50px
+    }
+
+    #ignText {
+        position: relative;
+        bottom: 50px;
+        left: 160px
+    }
+
+    #tagInput {
+        position: relative;
+        left: 50px;
+    }
+
+    #tagText {
+        position: relative;
+        top: 30px;
+        left: 150px
+    }
+
+    #screen {
+        position: relative;
+        left: 470px
+    }
+
+    #screen2 {
+        position: relative;
+        left: 350px
+    }
+
+    #form {
+        position: relative;
+        right: 400px
+    }
+
+    #ign {
+        position: relative;
+        left: 400px
+    }
+
+    #tag {
+        position: relative;
+        left: 400px
+    }
+
+    .submit, #check {
+        position: relative;
+        left: 500px
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    #menuBtn, #closeMenuBtn {
+        position: relative;
+        left: 50px
+    }
+
+    #ignText {
+        position: relative;
+        bottom: 50px;
+        left: 160px
+    }
+
+    #tagInput {
+        position: relative;
+        left: 50px;
+    }
+
+    #tagText {
+        position: relative;
+        top: 30px;
+        left: 150px
+    }
+
+    #screen {
+        position: relative;
+        left: 470px
+    }
+
+    #screen2 {
+        position: relative;
+        left: 350px
+    }
+
+    #form {
+        position: relative;
+        right: 400px
+    }
+
+    #ign {
+        position: relative;
+        left: 400px
+    }
+
+    #tag {
+        position: relative;
+        left: 400px
+    }
+
+    .submit, #check {
+        position: relative;
+        left: 500px
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+    #menuBtn, #closeMenuBtn {
+        position: relative;
+        left: 900px
+    }
+
+    #form {
+        position: relative;
+        left: -300px
+    }
+
+    .submit, #check {
+        position: relative;
+        left: 850px
+    }
+    
+}
+
